@@ -156,3 +156,10 @@ main .hero .image-wrapper img{
     }
       
 }
+
+@media screen and (max-width:484px) {
+    header nav {
+        width: 60%;
+    }
+    
+}
