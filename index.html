@@ -38,8 +38,16 @@
             </div>
             <div class="image-wrapper">
                 <img src="./image.png" alt="programming image">
+                <div class="circle">Certified css</div>
             </div>
        </div>
     </main>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const menu = document.querySelector("ul");
+        hamburger.addEventListener("click", function(){
+            menu.classList.toggle("open");
+        })
+    </script>
 </body>
 </html>
